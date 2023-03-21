@@ -1,0 +1,115 @@
+@import 'fonts';
+@import 'variables';
+@import 'libs/normalize';
+@import 'libs/reset';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 26px;
+  @extend %WorkSans-400;
+}
+
+.burger-btn {
+  display: none;
+}
+.burger {
+  &__menu {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+  @extend %WorkSans-600;
+  color: $black;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-left: 7px;
+    font-size: 22px;
+    color: $black;
+  }
+}
+
+@media (max-width: 1110px) {
+  .header {
+    &__title {
+      max-width: 500px;
+      margin: 0 0 30px;
+    }
+
+    &__text {
+      max-width: 400px;
+    }
+  }
+
+  .header-product {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .menu {
+    &__list {
+      display: none;
+    }
+
+    &__register {
+      width: auto;
+      padding: 9px 20px;
+    }
+    &__link,
+    &__link-span {
+      display: none;
+    }
+  }
+
+  .burger-btn {
+    display: block;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .burger-btn::before {
+    content: '';
+    position: absolute;
+    background-image: url('../images/icons/barsMenu.svg');
+    width: 25px;
+    height: 30px;
+    top: -15px;
+    right: 35px;
+  }
+
+  .burger {
+    &__menu {
+      display: block;
+    }
+  }
+}
+
+// .burger-btn {
+//   display: none;
+// }
+// .burger {
+//   &__menu {
+//     display: none;
+//   }
+// }

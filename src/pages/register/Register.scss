@@ -1,0 +1,20 @@
+@import '../../scss/variables';
+
+.modal {
+  &__item-register {
+    display: flex;
+  }
+  &__link-register {
+    margin-top: 20px;
+    text-align: center;
+  }
+  &__link-login {
+    margin-left: 7px;
+    color: $blue;
+  }
+
+  &__checkbox-register {
+    width: 25px !important;
+    top: 5px;
+  }
+}

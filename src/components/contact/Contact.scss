@@ -1,0 +1,45 @@
+@import '../../scss/variables';
+
+.contact {
+  margin-bottom: 40px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__inner-box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__inner-text {
+    @extend %WorkSans-500;
+    margin-right: 20px;
+  }
+
+  &__inner-link {
+    max-width: 225px;
+    width: 100%;
+  }
+
+  &__inner-create {
+    color: $white;
+    background-color: $black;
+    padding: 13px 22px;
+    width: 225px;
+    border-radius: 38px;
+    position: relative;
+  }
+
+  &__inner-create::after {
+    content: '';
+    position: absolute;
+    background-image: url('../../images/icons/arrow-light.svg');
+    width: 22px;
+    height: 14px;
+    top: 19px;
+    right: 15px;
+  }
+}

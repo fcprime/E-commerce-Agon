@@ -1,0 +1,98 @@
+@import '../../scss/variables';
+
+.order {
+  &__title {
+    max-width: 660px;
+    margin-bottom: 62px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 128px;
+    margin-bottom: 128px;
+  }
+
+  &__item {
+    max-width: 270px;
+    width: 100%;
+    padding: 43px 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  &__item-one {
+    background-color: #fff3ea;
+  }
+
+  &__item-two {
+    background: #fde2e4;
+  }
+  &__item-three {
+    background: #dbece5;
+  }
+  &__item-for {
+    background: #dbece5;
+  }
+  &__item-five {
+    background: #d1ecfd;
+  }
+
+  &__item::after {
+    content: '';
+    position: absolute;
+  }
+
+  &__item-one::after,
+  &__item-two::after {
+    background-image: url('../../images/icons/line-1.svg');
+    width: 90px;
+    height: 20px;
+    top: 160px;
+    right: -110px;
+  }
+
+  &__item-three::after {
+    background-image: url('../../images/icons/line-2.svg');
+    width: 64px;
+    height: 85px;
+    bottom: -147px;
+    right: 65px;
+  }
+
+  &__item-five::after {
+    background-image: url('../../images/icons/line-1.svg');
+    width: 90px;
+    height: 20px;
+    transform: rotate(180deg);
+    top: 160px;
+    left: -110px;
+  }
+
+  &__item-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+
+  &__item-title {
+    color: $black3;
+    @extend %WorkSans-500;
+    font-size: 32px;
+    margin-bottom: 35px;
+  }
+
+  &__item-text {
+    color: $gray5;
+    text-align: center;
+  }
+}

@@ -1,0 +1,112 @@
+@import '../../scss/variables';
+
+.products {
+  margin-bottom: 113px;
+  &__title {
+    max-width: 475px;
+    margin-bottom: 57px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+
+  &__item {
+    width: 255px;
+    height: 370px;
+    padding: 0 15px 24px 15px;
+    border: 1px solid $gray-line;
+    box-shadow: 0px 0px 1px 1px rgba(228, 231, 236, 0.15);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__item:hover {
+    border-color: #1ea7fd50;
+    transform: translate3d(0, -2px, 0);
+    box-shadow: rgba(0, 0, 0, 8%) 0 3px 10px 0;
+  }
+
+  &__favorite {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  &__favorite:hover {
+    svg path {
+      fill: rgb(204, 14, 14);
+    }
+  }
+
+  .products__item-img {
+    position: absolute;
+    top: 40px;
+  }
+
+  &__item-discount {
+    color: $white;
+    background: $black;
+    border-radius: 25px;
+    font-size: 10px;
+    width: 40px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 21px 15px;
+  }
+
+  &__item-box {
+    margin-top: auto;
+  }
+
+  &__item-company {
+    color: $gray4;
+    font-size: 12px;
+    line-height: 26px;
+  }
+
+  &__item-title {
+    display: block;
+    @extend %WorkSans-600;
+    color: $black2;
+    font-size: 16px;
+    letter-spacing: -0.1px;
+  }
+
+  &__item-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    height: 23px;
+    cursor: pointer;
+    border: none;
+    background: #bee1e6;
+    border-radius: 6px;
+    @extend %WorkSans-500;
+    font-size: 12px;
+    line-height: 26px;
+    color: $white;
+    margin-left: auto;
+  }
+
+  &__item-btn:hover {
+    background-color: #445b5e;
+  }
+}
+
+.star-svg {
+  width: 17px;
+  height: 17px;
+}

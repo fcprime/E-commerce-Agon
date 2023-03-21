@@ -1,0 +1,109 @@
+@import '../../../scss/variables';
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 0;
+  border-top: 2px solid #d6d8dd;
+  border-bottom: 2px solid #d6d8dd;
+
+  &__title {
+    @extend %WorkSans-500;
+    font-size: 18px;
+    margin-bottom: 9px;
+  }
+
+  &__adress {
+    color: $gray-footer;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 7px;
+  }
+
+  &__tel {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #444e62;
+    display: block;
+  }
+
+  &__adress:hover,
+  &__tel:hover {
+    color: #4273d4;
+  }
+
+  &__email {
+    color: $blue;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+
+  &__email:hover {
+    text-decoration: underline;
+  }
+
+  &__social {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__social-link {
+    transition: all 0.3s;
+  }
+
+  &__social-link svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__social-link:hover svg {
+    path {
+      fill: #4273d4;
+    }
+  }
+
+  &__list {
+    text-align: center;
+  }
+
+  &__list-link {
+    color: $gray-footer;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+
+  &__list-link:hover {
+    color: $black;
+  }
+}
+
+.footer-bottom {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__company {
+    @extend %WorkSans-500;
+    font-size: 18px;
+    line-height: 26px;
+    color: $gray-footer;
+  }
+
+  &__privacy {
+    display: flex;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: $gray-footer;
+    gap: 15px;
+  }
+}

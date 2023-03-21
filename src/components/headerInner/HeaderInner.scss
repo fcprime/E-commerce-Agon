@@ -1,0 +1,232 @@
+@import '../../scss/variables';
+
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 127px;
+  }
+
+  &__wrapper {
+    padding-top: 20px;
+  }
+
+  &__wrapper-title {
+    font-size: 25px;
+    @extend %WorkSans-600;
+    color: #98a2b3;
+    margin-bottom: 28px;
+  }
+
+  &__title {
+    max-width: 572px;
+    margin-bottom: 30px;
+    text-align: left !important;
+  }
+
+  &__text {
+    max-width: 549px;
+    @extend %Merriweather-400;
+    color: $gray;
+    margin-bottom: 42px;
+    letter-spacing: 0.045em;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 57px;
+  }
+
+  &__links-box--one {
+    padding: 13px 53px 13px 21px;
+    background: $black;
+    color: $white;
+    border-radius: 4px;
+    margin-right: 28px;
+    position: relative;
+  }
+
+  &__links-box--one::after {
+    content: '';
+    position: absolute;
+    background-image: url('../../images//icons/arrow-light.svg');
+    width: 22px;
+    height: 14px;
+    top: 19px;
+    right: 15px;
+  }
+
+  &__link-one {
+    @extend %WorkSans-500;
+    color: $white;
+  }
+
+  &__links-box--two {
+    position: relative;
+  }
+
+  &__links-box--two::after {
+    content: '';
+    position: absolute;
+    background-image: url('../../images//icons/arrow-dark.svg');
+    width: 22px;
+    height: 14px;
+    top: 6px;
+    right: -29px;
+  }
+
+  &__link-two {
+    color: $black;
+  }
+
+  &__number {
+    display: flex;
+    align-items: center;
+  }
+
+  &__number-box {
+    display: flex;
+    align-items: center;
+    margin-right: 54px;
+  }
+
+  &__number-box:last-child {
+    margin-right: 0;
+  }
+
+  &__number-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #bee1e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+  }
+
+  &__number-title {
+    @extend %WorkSans-600;
+    font-size: 30px;
+    color: $black;
+  }
+
+  &__number-title span {
+    @extend %WorkSans-500;
+    color: $gray2;
+    font-size: 16px;
+    display: block;
+  }
+
+  &__box {
+    display: flex;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  &__product {
+    padding-left: 69px;
+    padding-top: 105px;
+    position: relative;
+  }
+
+  &__product::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../images/icons/dotsDecor.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 373px;
+    height: 455px;
+    top: 0;
+    left: 0;
+  }
+
+  &__product img {
+    object-fit: cover;
+  }
+
+  &__static {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 17px 15px 13px 15px;
+    background: $white;
+    box-shadow: 0px 0px 20px 2px rgba(145, 145, 145, 0.12);
+    border-radius: 8px;
+  }
+
+  &__static-title {
+    margin-bottom: 13px;
+    font-size: 12px;
+    color: $white;
+    width: 105px;
+    text-align: center;
+    background: #bee1e6;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  &__static-title::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: $white;
+    top: 11px;
+    left: 5px;
+  }
+
+  &__static-subtitle {
+    max-width: 50px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $black;
+    @extend %WorkSans-500;
+  }
+
+  &__static-img {
+    margin-bottom: 25px;
+  }
+
+  &__static-number {
+    position: absolute;
+    top: 68px;
+    right: 92px;
+    font-size: 12px;
+    line-height: 14px;
+    @extend %WorkSans-500;
+  }
+
+  &__static-list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__static-item {
+    font-size: 10px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: $gray3;
+    margin-right: 12px;
+  }
+
+  &__static-item:last-child {
+    margin-right: 0;
+  }
+
+  &__static-item--active {
+    color: $black;
+    background-color: #afeae4;
+    width: 26px;
+    height: 13px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
