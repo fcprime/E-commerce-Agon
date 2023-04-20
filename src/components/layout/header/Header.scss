@@ -1,17 +1,14 @@
 @import '../../../scss/variables';
 
 .header {
+  &__logo {
+  }
   &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 105px;
+    // margin-bottom: 105px;
   }
-}
-
-.menu {
-  display: flex;
-  align-items: center;
 
   &__list {
     display: flex;
@@ -32,9 +29,41 @@
     border-bottom: 1px solid #000;
   }
 
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__navbar-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  &__navbar-show {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__navbar-btn {
+    position: absolute;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+
   &__search {
     padding-left: 10px;
-    margin: 0 40px;
+    margin: 20px auto 40px;
     display: flex;
     align-items: center;
     border: 1px solid $black;
@@ -50,9 +79,21 @@
   &__search-input {
     border: none;
     outline: none;
-    width: 240px;
+    width: 220px;
     padding-left: 10px;
     color: $black;
+  }
+
+  &__search-clear {
+    width: 22px;
+    height: 22px;
+    opacity: 0.5;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   &__favorite {
@@ -60,10 +101,12 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    position: relative;
   }
 
   &__favorite:hover {
     svg path {
+      stroke: #c8e6e9;
       fill: #c8e6e9;
     }
   }
@@ -90,7 +133,7 @@
     position: absolute;
     width: 16px;
     height: 16px;
-    background: #8b57c6;
+    background-color: #046ef4;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -101,29 +144,28 @@
   }
 
   &__register {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 250px;
-    border-radius: 30px;
-    padding: 9px 36px;
-    background: #000;
-    color: #fff;
     box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.4);
-    font-weight: 500;
-    transition: 0.2s ease-in-out;
-  }
-
-  &__register:hover {
     background-color: #c8e6ea;
-    color: #34474a;
-    svg path {
-      fill: #34474a;
-    }
+    border-radius: 30px;
+    padding: 9px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 140px;
   }
 
   &__link {
     font-size: 16px;
     @extend %WorkSans-500;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 0;
+  }
+
+  &__link:hover {
+    color: blue;
   }
 }

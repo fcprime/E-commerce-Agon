@@ -2,16 +2,16 @@
 
 .products {
   margin-bottom: 113px;
+
   &__title {
     max-width: 475px;
     margin-bottom: 57px;
   }
 
   &__wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 23px;
   }
 
   &__item {
@@ -33,15 +33,33 @@
   }
 
   &__favorite {
+    background-color: transparent;
+    border: none;
+    padding: 0;
     position: absolute;
     top: 20px;
     right: 15px;
     cursor: pointer;
   }
 
+  &__favorite-add {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+    path {
+      stroke: #305256;
+      fill: #305256;
+    }
+  }
+
   &__favorite:hover {
     svg path {
-      fill: rgb(204, 14, 14);
+      stroke: #c8e6e9;
+      fill: #c8e6e9;
     }
   }
 
@@ -66,6 +84,10 @@
     margin: 21px 15px;
   }
 
+  &__item-discount--none {
+    background: $white !important;
+  }
+
   &__item-box {
     margin-top: auto;
   }
@@ -84,25 +106,36 @@
     letter-spacing: -0.1px;
   }
 
+  &__item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item-price {
+    color: $black2;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
   &__item-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 67px;
-    height: 23px;
+    width: 80px;
+    padding: 0 10px;
     cursor: pointer;
     border: none;
-    background: #bee1e6;
+    background-color: #445b5e;
     border-radius: 6px;
     @extend %WorkSans-500;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 26px;
     color: $white;
-    margin-left: auto;
   }
 
   &__item-btn:hover {
-    background-color: #445b5e;
+    background-color: #64a2ab;
   }
 }
 

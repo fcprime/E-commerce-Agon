@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     max-width: 350px;
+    height: 120px;
     width: 100%;
     padding: 20px 0;
     border: 1px solid #e4e7ec;
@@ -40,13 +41,13 @@
     color: #323a4b;
     @extend %WorkSans-600;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 20px;
   }
 
   &__item-price {
     @extend %WorkSans-300;
     color: $black;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 20px;
   }
 }

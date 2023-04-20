@@ -2,7 +2,6 @@ import React from 'react';
 
 import styles from './Footer.scss';
 
-
 const Footer = () => {
   return (
     <footer className="footer">
@@ -10,18 +9,26 @@ const Footer = () => {
         <div className="footer-top">
           <div className="footer-top__item">
             <h5 className="footer-top__title">Contact</h5>
-            <a className="footer-top__adress" href="#">
+            <a
+              className="footer-top__adress"
+              href="#">
               4517 Washington Ave. <br /> Manchester, Kentucky 39495
             </a>
-            <a className="footer-top__tel" href="tel:2395550108">
+            <a
+              className="footer-top__tel"
+              href="tel:2395550108">
               (239) 555-01-08
             </a>
-            <a className="footer-top__email" href="mailto:contact@agon.com">
+            <a
+              className="footer-top__email"
+              href="mailto:contact@agon.com">
               contact@agon.com
             </a>
             <ul className="footer-top__social">
               <li className="footer-top__social-item">
-                <a className="footer-top__social-link" href="#">
+                <a
+                  className="footer-top__social-link"
+                  href="#">
                   <svg
                     width="16"
                     height="16"
@@ -36,7 +43,9 @@ const Footer = () => {
                 </a>
               </li>
               <li className="footer-top__social-item">
-                <a className="footer-top__social-link" href="#">
+                <a
+                  className="footer-top__social-link"
+                  href="#">
                   <svg
                     width="15"
                     height="14"
@@ -51,7 +60,9 @@ const Footer = () => {
                 </a>
               </li>
               <li className="footer-top__social-item">
-                <a className="footer-top__social-link" href="#">
+                <a
+                  className="footer-top__social-link"
+                  href="#">
                   <svg
                     width="18"
                     height="15"
@@ -66,7 +77,9 @@ const Footer = () => {
                 </a>
               </li>
               <li className="footer-top__social-item">
-                <a className="footer-top__social-link" href="#">
+                <a
+                  className="footer-top__social-link"
+                  href="#">
                   <svg
                     width="14"
                     height="14"
@@ -86,27 +99,37 @@ const Footer = () => {
             <h5 className="footer-top__title">About Us</h5>
             <ul className="footer-top__list">
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   About V1
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   About V2
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   About V3
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   About V4
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   About V5
                 </a>
               </li>
@@ -116,27 +139,37 @@ const Footer = () => {
             <h5 className="footer-top__title">Discover</h5>
             <ul className="footer-top__list">
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Our Blog
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Our Blog
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Our Blog
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Our Blog
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Our Blog
                 </a>
               </li>
@@ -146,27 +179,37 @@ const Footer = () => {
             <h5 className="footer-top__title">Support</h5>
             <ul className="footer-top__list">
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   FAQ
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   FAQ
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   FAQ
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   FAQ
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   FAQ
                 </a>
               </li>
@@ -176,27 +219,37 @@ const Footer = () => {
             <h5 className="footer-top__title">Useful links</h5>
             <ul className="footer-top__list">
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Shop
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Shop
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Shop
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Shop
                 </a>
               </li>
               <li className="footer-top__list-item">
-                <a className="footer-top__list-link" href="#">
+                <a
+                  className="footer-top__list-link"
+                  href="#">
                   Shop
                 </a>
               </li>

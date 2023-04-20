@@ -1,0 +1,113 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "../images/product/smartWatchWhite.png",
+    "alt": "SmartWatch White",
+    "name": "Sony",
+    "title": "4K TV Game Mini Arcade Rocker Console 32GB/64GB",
+    "price": 149,
+    "rating": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "../images/product/headPhoneBigBlack.png",
+    "alt": "SmartWatch Black",
+    "name": "Google",
+    "title": "Cancelling Headset Music Sport Deep Bass",
+    "price": 79,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "discount": "-15%",
+    "imageUrl": "../images/product/headPhoneBigPink.png",
+    "alt": "headPhone Pink",
+    "name": "Apple",
+    "title": "T500BT Original Wireless Bluetooth Headphone",
+    "price": 79,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "imageUrl": "../images/product/headPhoneBigBlue.png",
+    "alt": "headPhone Blue",
+    "name": "Toshiba",
+    "title": "Black Walnut Wood & Aluminum Headphone Stand",
+    "price": 79,
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "imageUrl": "../images/product/bluetoothHeadphone.png",
+    "alt": "headPhone",
+    "name": "BassX",
+    "title": "Beats Studio3 Wireless Bluetooth Headphones",
+    "price": 149,
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "imageUrl": "../images/product/marshallFolding.png",
+    "alt": "folding",
+    "name": "Konika",
+    "title": "4K TV Game Mini Arcade Rocker Console 32GB/64GB",
+    "price": 99,
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "discount": "-25%",
+    "imageUrl": "../images/product/smartWatchBig.png",
+    "alt": "Smart Watch",
+    "name": "Apple",
+    "title": "T500BT Original Wireless Bluetooth Headphone",
+    "price": 59,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "imageUrl": "../images/product/aluminiumHeadphone.png",
+    "alt": "Headphone",
+    "name": "Toshiba",
+    "title": "Black Walnut Wood & Aluminum Headphone Stand",
+    "price": 149,
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "imageUrl": "../images/product/beatsHeadphone.png",
+    "alt": "Headphone",
+    "name": "BassX",
+    "title": "Beats Studio3 Wireless Bluetooth Headphones",
+    "price": 99,
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "imageUrl": "../images/product/marshallHeadphone.png",
+    "alt": "Headphone",
+    "name": "Konika",
+    "title": "Marshall MAJOR III Wireless Folding Bluetooth",
+    "price": 120,
+    "rating": 4
+  },
+  {
+    "id": 10,
+    "discount": "-10%",
+    "imageUrl": "../images/product/toaster.png",
+    "alt": "Toaster",
+    "name": "Apple",
+    "title": "4T500BT Original Wireless Bluetooth Headphone",
+    "price": 110,
+    "rating": 4
+  },
+  {
+    "id": 11,
+    "imageUrl": "../images/product/joystick.png",
+    "alt": "joystick",
+    "name": "Toshiba",
+    "title": "Black Walnut Wood & Aluminum Headphone Stand",
+    "price": 89,
+    "rating": 4
+  }
+]
