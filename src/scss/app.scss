@@ -537,4 +537,33 @@ body {
       margin-bottom: 10px;
     }
   }
+
+  .products {
+    &__item {
+      width: 130px;
+      height: 280px;
+      padding: 10px;
+    }
+    &__item-img img {
+      width: 65%;
+      margin: 0 auto;
+    }
+    &__item-price {
+      padding-left: 0;
+      margin-right: 5px;
+    }
+    &__item-title {
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: -1px;
+    }
+    &__favorite,
+    &__favorite-add {
+      top: 10px;
+      right: 5px;
+    }
+    &__item-btn {
+      width: 70px;
+    }
+  }
 }
